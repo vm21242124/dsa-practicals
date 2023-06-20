@@ -22,6 +22,8 @@ void Merge(vector<int>&arr,int left,int mid,int right){
     int n1=mid-left+1;
     int n2=right-mid;
     vector<int>l1,r1;
+
+    //making 2 half arrays and filling it
     for(i=0;i<n1;i++){
         l1.push_back(arr[left+i]);
     }
