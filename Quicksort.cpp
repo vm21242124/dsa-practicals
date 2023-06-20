@@ -21,6 +21,8 @@ void printarr(vector<int>v){
     }
     cout<<endl;
 }
+
+//pick a pivot and place it to right place for eg 4 3 7 5  -.> 3 4 7 5
 int partionind(vector<int>&arr,int low,int high){
     int pivot=arr[low];
     int i=low;
