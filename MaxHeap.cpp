@@ -17,7 +17,7 @@ class heap{
     int size;
     heap(){
         arr[0]=-1;
-        size=0;
+        size=0;   
     }
     void insert(int val){
         size=size+1;
